@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/free5gc/http_wrapper"
+	"github.com/omec-project/http_wrapper"
 )
 
 func TestNewResponse(t *testing.T) {

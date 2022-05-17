@@ -1,4 +1,4 @@
-module github.com/free5gc/http_wrapper
+module github.com/omec-project/http_wrapper
 
 go 1.14
 
