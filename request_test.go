@@ -20,5 +20,5 @@ func TestNewRequest(t *testing.T) {
 	assert.Equal(t, "https://www.nctu.edu.tw/", request.Header.Get("Location"))
 	assert.Equal(t, "NCTU", request.Query.Get("name"))
 	assert.Equal(t, "Hsinchu", request.Query.Get("location"))
-	assert.Equal(t, 1000, request.Body)
+	assert.Equal(t, 1001, request.Body)
 }
